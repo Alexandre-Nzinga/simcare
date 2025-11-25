@@ -8,7 +8,6 @@ import { Spinner } from '@/components/ui/spinner';
 import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 
-
 export default function Login() {
   const [processing, setProcessing] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -97,13 +96,6 @@ export default function Login() {
               {processing && <Spinner />}
               Log in
             </Button>
-            <div className="mt-2">
-              <a href="/oauth/kdglogin" data-test="kdglogin-button">
-                <Button className="mt-2 w-full" type="button">
-                  Sign in with KDG
-                </Button>
-              </a>
-            </div>
           </form>
         </div>
       </div>

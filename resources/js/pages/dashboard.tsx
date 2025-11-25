@@ -45,7 +45,7 @@ export default function Dashboard() {
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Dashboard" />
             <div className="flex h-full flex-1 flex-col gap-4 overflow-x-auto rounded-xl p-4">
-                <WelcomeBar firstName="Alexandre" />
+                <WelcomeBar firstName= "Alexandre"/>
 
                 {/* Scenarios section */}
                 <section className="mt-6">
