@@ -7,13 +7,13 @@ import demoScreenshot from "../../images/tablet.png";
 const AppPreview = () => {
   return <div className="flex flex-col overflow-hidden">
     <ContainerScroll titleComponent={<>
-        {/*<h1 className="text-4xl font-semibold text-foreground">
+        <h1 className="text-4xl font-semibold text-foreground">
           SimCare
           <br />
-        <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-teal-500">
-            3D Medische Simulatie
+        <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-gray-300">
+            Medische tool
         </span>
-        </h1>*/}
+        </h1>
         </>}>
       <img
         src={demoScreenshot}

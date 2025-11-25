@@ -24,7 +24,7 @@ export function WelcomeBar({ firstName }: WelcomeBarProps) {
 
     return (
         <div className="w-full rounded-xl bg-teal-700 p-6 mb-6 dark:bg-black/40">
-            <h2 className="text-2xls font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-white">
                 {firstName ? `${greeting}, ${firstName}!` : `${greeting}, Gast!`}
             </h2>
             <p className="mt-1 text-white/70">

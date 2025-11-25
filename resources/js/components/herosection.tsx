@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="relative isolate px-6 pt-8 lg:px-8 overflow-hidden rounded-b-3xl">
             {/* Animated Gradient Background */}
             <AnimatedGradientBackground
-                startingGap={125}
+                startingGap={110}
                 Breathing={true}
                 containerClassName="blur-3xl"
                 topOffset={0}

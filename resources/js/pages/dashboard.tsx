@@ -22,22 +22,22 @@ export default function Dashboard() {
             title: 'MRI Scan',
             short: 'Acute reanimatie, snelle beslissingen en teamcoördinatie.',
             details: 'Realistische reanimatiesimulatie met vitale functies, tijdsdruk en de mogelijkheid om protocollen te oefenen.',
-            imageUrl: '',
+            imageUrl: 'https://www.philips.be/c-dam/b2bhc/master/Products/Category/magnetic-resonance/mr-therapy/mr-therapy-HC781439.jpg',
             unityBuildPath: '/unity-builds/thorax-sim/index.html',
         },
         {
             title: 'RX Scan',
             short: 'Diagnose en behandeling van radiologische bevindingen in spoedeisende situaties.',
             details: 'Scenario met complexe radiologische interpretatie en urgente therapeutische besluitvorming, waarbij correcte diagnose en snelle behandeling essentieel zijn.',
-            imageUrl: '',
+            imageUrl: 'https://images.philips.com/is/image/philipsconsumer/ced89e5443824594b3b7b11800b096c2?$jpglarge$&wid=840&hei=720',
             unityBuildPath: '/unity-builds/mri-sim/index.html',
         },
         {
             title: 'CT scan',
             short: 'Beheer van meerdere letsels bij een meergewonde patiënt.',
             details: 'Simuleer snelle triage, luchtweg beheer en coördinatie met spoedeisende hulpteams.',
-            imageUrl: '',
-            unityBuildPath: '/unity-builds/trauma-sim/index.html',
+            imageUrl: 'https://www.philips.be/c-dam/corporate/newscenter/global/standard/resources/healthcare/2021/spectral-ct-7500/spectral-ct-product-shot-side-view.download.jpg',
+            unityBuildPath: '/unity-builds/ct-scan-sim/index.html',
         },
     ];
 

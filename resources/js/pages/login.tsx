@@ -8,6 +8,7 @@ import { Spinner } from '@/components/ui/spinner';
 import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 
+
 export default function Login() {
   const [processing, setProcessing] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
