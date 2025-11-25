@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OAuthController;
 use Inertia\Inertia;
 
 Route::get('/', function () {
@@ -11,6 +12,7 @@ Route::get('/', function () {
 Route::get('login', function () {
     return Inertia::render('login');
 })->name('login');
+Route::get('oauth/kdglogin', [OAuthController::class, 'redirectToMicrosoft'])->name('kdglogin');
 
 // Public dashboard (no auth required)
 Route::get('dashboard', function () {
