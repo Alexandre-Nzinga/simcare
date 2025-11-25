@@ -19,24 +19,24 @@ export default function Dashboard() {
 
     const sampleScenarios = [
         {
-            title: 'Edix-Thorax',
+            title: 'MRI Scan',
             short: 'Acute reanimatie, snelle beslissingen en teamcoördinatie.',
             details: 'Realistische reanimatiesimulatie met vitale functies, tijdsdruk en de mogelijkheid om protocollen te oefenen.',
-            imageUrl: 'https://img.alicdn.com/imgextra/i3/180035430/O1CN01K8hx7H1pyzZvVnSTL_!!180035430.jpg',
+            imageUrl: '',
             unityBuildPath: '/unity-builds/thorax-sim/index.html',
         },
         {
-            title: 'MRI Scan',
-            short: 'Herkenning en behandeling van knieletsel in de acute setting.',
-            details: 'Scenario met progressieve hemodynamische instabiliteit, waarbij fluid resuscitation en antibiotica-timing cruciaal zijn.',
-            imageUrl: 'https://uploads.dailydot.com/73a/78/knee.gif?auto=compress&fm=gif',
+            title: 'RX Scan',
+            short: 'Diagnose en behandeling van radiologische bevindingen in spoedeisende situaties.',
+            details: 'Scenario met complexe radiologische interpretatie en urgente therapeutische besluitvorming, waarbij correcte diagnose en snelle behandeling essentieel zijn.',
+            imageUrl: '',
             unityBuildPath: '/unity-builds/mri-sim/index.html',
         },
         {
-            title: 'Trauma Triage',
+            title: 'CT scan',
             short: 'Beheer van meerdere letsels bij een meergewonde patiënt.',
-            details: 'Simuleer snelle triage, airway management en coördinatie met spoedeisende hulp teams.',
-            imageUrl: 'https://i0.wp.com/sheekgeek.org/wp-content/uploads/2010/01/animation.gif?ssl=1',
+            details: 'Simuleer snelle triage, luchtweg beheer en coördinatie met spoedeisende hulpteams.',
+            imageUrl: '',
             unityBuildPath: '/unity-builds/trauma-sim/index.html',
         },
     ];

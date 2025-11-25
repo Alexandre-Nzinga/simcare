@@ -3,6 +3,8 @@ import { type SharedData } from '@/types';
 import { Head, Link, usePage } from '@inertiajs/react';
 import { HeroSection } from '@/components/herosection';
 import AppLogo from '@/components/app-logo';
+import AppPreview from "@/components/app-preview";
+import { FeatureSection } from '@/components/feature-section';
 
 
 
@@ -48,7 +50,8 @@ export default function Welcome() {
                  </header>
                 <main className="w-full">
                     <HeroSection />
-
+                    <AppPreview />
+                    <FeatureSection />
 
                 </main>
                 <div className="hidden h-14.5 lg:block"></div>
